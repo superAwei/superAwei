@@ -1,0 +1,37 @@
+//文字
+.title{
+    font-size:$font-t;
+    font-family:$font-family;
+}
+.font{
+    font-size: $font;
+}
+
+// 間距
+.m-b{
+    margin-bottom:24px;
+}
+.m-l{
+    margin-left: 12px;
+}
+
+
+// 照片寬度
+.w-96{
+    width: 96px;
+    height: 96px;
+}
+
+.w-208{
+    width: 208px;
+    height: 208px;
+}
+
+//符合照片大小設定
+.img-fit{
+    object-fit: contain;
+}
+
+
+
+

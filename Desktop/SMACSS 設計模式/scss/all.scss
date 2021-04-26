@@ -1,0 +1,42 @@
+@import "reset";
+@import "var";
+@import "base";
+@import "style";
+
+
+.wrap{
+    position: relative;
+    max-width:640px;
+    margin: 300px auto;
+    background-color:$dark;
+    color:$white;
+    .main_block{
+        display: flex;
+        padding: 20px 0;
+        .main{
+            .main_item{
+                display: flex;
+            }
+        }
+    }
+    
+}
+
+.footer{
+    display: block;
+    text-align: center;
+    background-color: $primary;
+    padding: 20px 0;
+}
+
+.box{
+    position: absolute;
+    top:-50px;
+    right:-50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:$secondary;
+    text-align: center;
+    line-height: 100px;
+}
